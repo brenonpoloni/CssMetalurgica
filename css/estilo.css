@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    width: auto;
+    height: 125px;
+    background-color: #010033;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; 
+    position: relative;  
+}
+
+.emojiazul {
+    font-size: 45px;
+    margin-top: 5px;
+    position: absolute;
+    left: 150px;
+}
+
+.topo h1 {
+    margin-top: -5px;
+    font-size: 25px;
+    width: 290px;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.escritaazul {
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3250bc;
+}
+
+.escritaverde {
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px 12px;
+    color: #93f393;
+    background-color: #012d00;
+    border: #93f393 solid 1px;
+    border-radius: 30px;
+}
+
+.topo h2 {
+    margin-left: -310px;
+    margin-top: 45px;
+    width: 390px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+.menu {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 0px;
+    gap: 490px;
+}
+
+.menu-button {
+    height: 40px;
+    width: 220px;
+    margin-left: -455px;
+    padding: 1px 16px;
+    background-color: #010033;
+    color:#ffffff;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu-button1 {
+    height: 40px;
+    width: 220px;
+    margin-left: -455px;
+    padding: 1px 16px;
+    background-color: #0022ff;
+    color:#ffffff;
+    border: none;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu-button:hover {
+    background-color: #0022ff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.menu-modo {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 20px;
+    border: #e7e7e7 solid 1px;
+    width: 345px;
+    height: 30px;
+    padding: 5px 2px;
+    border-radius: 10px;
+}
+
+.modo-button1 {
+    height: 35px;
+    color:#010033;
+    background-color: #ff8800;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 7px;
+    margin-left: -1px;
+    margin-top: -3px;
+    font-weight: bold;
+}
+
+.modo-button2 {
+    height: 35px;
+    color:#ffffff;
+    background-color:#0b0a4b;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 9px;
+    margin-left: -1px;
+    margin-top: -3px;
+    font-weight: bold;
+}
+
+.modo-button2:hover {
+    background-color: #61370e;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.turnodocoiso {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 25px;
+    border: #e7e7e7 solid 1px;
+    border-radius: 10px;
+    padding: 7px 9px;
+    font-weight: bold;
+    background-color: #111046;
+}
+
+.barrasep {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: 53px;
+}
+
+.partedomeio {
+    display: flex;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+    height: 2000px;
+}
+
+.visaotecnico {
+    height: 80px;
+    width: 1140px;
+    margin-left: 55px;
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 98%);
+    border:#818181 solid 2px;
+    border-radius: 10px;
+    position:absolute;
+}
+
+.imgfenda {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+    height: 55px;
+    border: #6b630f solid 2px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.imgfenda img {
+    width: 100%;
+    height: 100%;
+    border:none;
+    border-radius: 15px;
+}
+
+.escritavisao {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 6px;
+    width: 990px;
+}
+
+.escritamaior {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.escritamenor {
+    margin-top: -15px;
+    font-size: 14px;
+    color:#2c2c2c
+}
+
+.dadosrestritos {
+    margin-left: 800px;
+    background-color: #e3e1e1;
+    border: #a2a2a2 solid 2px;
+    font-size: 13px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-top: -43px;
+    font-weight: 550;
+    color:#5b5b5b
+}
